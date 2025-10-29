@@ -26,4 +26,5 @@
     "forwardPorts": [3001],
     // LifeCycles
     "initializeCommand": "bash ./.devcontainer/commands/initializeCommand.sh ${localWorkspaceFolder} ${containerWorkspaceFolder} ${localWorkspaceFolderBasename} ${containerWorkspaceFolderBasename}",
+    "postCreateCommand": "bash ./.devcontainer/commands/postCommand.sh"
 }
